@@ -12,26 +12,6 @@
             key-positions = <44 45>;
             layers = <2>;
         };
-
-        BS {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <22 23>;
-        };
-
-        ESCape {
-            bindings = <&kp ESC>;
-            key-positions = <12 13>;
-        };
-
-        return {
-            bindings = <&kp RETURN>;
-            key-positions = <37 36>;
-        };
-
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <24 25>;
-        };
     };
 
     keymap {
