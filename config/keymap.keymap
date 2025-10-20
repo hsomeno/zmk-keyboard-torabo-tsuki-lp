@@ -27,6 +27,11 @@
             bindings = <&kp RETURN>;
             key-positions = <37 36>;
         };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <24 25>;
+        };
     };
 
     keymap {
