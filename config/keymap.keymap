@@ -12,6 +12,21 @@
             key-positions = <44 45>;
             layers = <2>;
         };
+
+        BS {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <23 22>;
+        };
+
+        retern {
+            bindings = <&kp RETURN>;
+            key-positions = <37 36>;
+        };
+
+        escAPE {
+            bindings = <&kp ESC>;
+            key-positions = <12 13>;
+        };
     };
 
     keymap {
