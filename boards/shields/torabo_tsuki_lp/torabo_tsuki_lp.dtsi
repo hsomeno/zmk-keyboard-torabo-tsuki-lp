@@ -160,3 +160,12 @@
     kscan = <&kscan0>;
     transform = <&size_l_transform>;
 };
+/* スクロールマッパーの設定定義 */
+&zip_xy_to_scroll_mapper {
+    layers = <1>;  /* ここにスクロールさせたいレイヤー番号を指定（例では1） */
+};
+
+/* 必要に応じてスクロールの速度（感度）もここで定義できます */
+&zip_scroll_scaler {
+    scales = <3 2>; /* 3/2倍にする設定 */
+};
