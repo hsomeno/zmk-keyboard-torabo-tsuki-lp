@@ -29,8 +29,8 @@ manifest:
     - name: zmk-feature-non-lipo-battery-management
       remote: sekigon-gonnoc
       revision: main
-    - name: zmk-input-behavior-code  # ← 【追加】スクロール用モジュール本体
-      remote: urob
+    - name: zmk-input-behavior-code
+      url: https://github.com/urob/zmk-input-behavior-code
       revision: main
   self:
     path: config
