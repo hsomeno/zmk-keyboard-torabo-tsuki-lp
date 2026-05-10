@@ -4,7 +4,7 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: sekigon-gonnoc
       url-base: https://github.com/sekigon-gonnoc
-    - name: urob  # ← 【追加】取得先アカウントの定義
+    - name: urob
       url-base: https://github.com/urob
   projects:
     - name: zmk
@@ -30,7 +30,7 @@ manifest:
       remote: sekigon-gonnoc
       revision: main
     - name: zmk-input-behavior-code
-      url: https://github.com/urob/zmk-input-behavior-code
-      revision: main
+      remote: urob
+      # revisionを指定せず、最新のデフォルトブランチを自動取得させる
   self:
     path: config
