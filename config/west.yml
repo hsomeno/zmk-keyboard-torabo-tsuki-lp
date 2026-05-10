@@ -31,6 +31,7 @@ manifest:
       revision: main
     - name: zmk-input-behavior-code
       remote: urob
+      revision: v1  # ← main から v1 に変更
       # revisionを指定せず、最新のデフォルトブランチを自動取得させる
   self:
     path: config
