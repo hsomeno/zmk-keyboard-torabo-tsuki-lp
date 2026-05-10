@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: sekigon-gonnoc
       url-base: https://github.com/sekigon-gonnoc
+    - name: urob  # ← 【追加】取得先アカウントの定義
+      url-base: https://github.com/urob
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -26,6 +28,9 @@ manifest:
       revision: v0.2
     - name: zmk-feature-non-lipo-battery-management
       remote: sekigon-gonnoc
+      revision: main
+    - name: zmk-input-behavior-code  # ← 【追加】スクロール用モジュール本体
+      remote: urob
       revision: main
   self:
     path: config

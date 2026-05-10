@@ -160,3 +160,6 @@
     kscan = <&kscan0>;
     transform = <&size_l_transform>;
 };
+&zip_xy_to_scroll_mapper {
+    layers = <1>; // レイヤー1の時にスクロールにする設定
+};
